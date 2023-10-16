@@ -1,1 +1,1 @@
-Setup básico de php# php
+Setup básico de php con varias funciones.
