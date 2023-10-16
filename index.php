@@ -1,3 +1,3 @@
 <?php
-    echo 'Esto es tu indice';
+    echo 'Hola, esto es tu indice';
 ?>
