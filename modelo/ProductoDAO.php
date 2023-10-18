@@ -1,8 +1,9 @@
 <?php
+
+    include_once 'config/dataBase.php';
     class ProductoDAO {
         public static function getAllProducts() {
-            
-            return $con;
+            $con = dataBase::connect();
         }
     }
 
