@@ -9,7 +9,7 @@
         echo 'No me has pasado controller.';
     }
 */
-    include_once 'controlador/pedidoControlador.php';
+    include_once 'controlador/productoControlador.php';
     include_once 'config/parametros.php';
 
     if(isset($_GET['controlador'])){
