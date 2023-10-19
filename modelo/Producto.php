@@ -8,11 +8,15 @@
         protected $tipo;
         private $genero;
 
-        public function __construct($id, $name, $tipo, $genero) {
+        public function __construct() {
+                
+        }
+
+        /*public function __construct($id, $name, $tipo, $genero) {
             $this->id = $id;
             $this->name = $name;
             $this->tipo = $tipo;
-        }
+        }*/
         
         /**
          * Get the value of id
