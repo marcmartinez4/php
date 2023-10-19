@@ -3,11 +3,15 @@
 
     class Juego extends Producto {
         private $plataforma;
+        
+        public function __construct() {
+            
+        }
 
-        public function __construct($id, $name, $tipo, $genero) {
+        /*public function __construct($id, $name, $tipo, $genero) {
             parent::__construct($id, $name, $tipo);
             $this->plataforma = $plataforma;
-        }
+        }*/
 
         /**
          * Get the value of plataforma

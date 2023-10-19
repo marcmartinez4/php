@@ -7,8 +7,13 @@
             //Cabecera
 
             //Panel
+            $games = ProductoDAO::getAllProducts();
             
-            var_dump(ProductoDAO::getAllProductos());
+            foreach ($games as $game) {
+                echo $producto->getName();
+            }
+            var_dump($games);
+            //var_dump(ProductoDAO::getAllProductos());
             /**$p1 = new Peli(0, 'Avatar', 'Peli', 'Aventuras');
             $p2 = new Peli(1, 'GTA', 'Juego', 'Acción', 'PS4');
 
